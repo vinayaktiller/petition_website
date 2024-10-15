@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+*.so
+
+# C extensions
+*.pyd
+
+# Django specific:
+db.sqlite3
+/media/
+staticfiles/
+
+# Ignore virtual environment folders
+env/
+venv/
+.venv/
+petitionenv/
+
+# If you're using environment variables, ignore the .env file
+.env
+
+# Ignore IDE related files
+.vscode/
+.idea/
+
+# Ignore logs and local database backups
+*.log
+*.bak
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
